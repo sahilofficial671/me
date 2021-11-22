@@ -1,9 +1,13 @@
 /* eslint-disable react/jsx-no-target-blank */
 import ProjectCard from '../components/project_card'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>About | Sahil Bhatia</title>
+      </Head>
       <h1 className="text-2xl md:text-4xl text-primary font-extrabold mb-6 lg:mb-8 border-l-8 border-indigo-500 pl-2 tracking-normal">
         Hello, I am Sahil Bhatia
       </h1>
