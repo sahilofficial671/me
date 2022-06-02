@@ -14,7 +14,7 @@ export default function Home() {
       <p className="text-lg tracking-wide pb-4 md:pb-12">
         A Full Stack Developer with passion for softwares. I take pride in providing robust solutions for my clients. I also like to explore more about the new technologies of this world.
         <div className="pt-6">
-          <a href="/resume.pdf" target="_blank">
+          <a href="https://drive.google.com/file/d/1F9dbSkMHXMvlK85aE1bsWjq2lLlNdzDT/view?usp=sharing" target="_blank">
             <a className="inline-block py-2 px-3 text-sm font-medium uppercase tracking-widest rounded text-primary bg-green-200 hover:bg-green-300 hover:bg-opacity-75 shadow-sm hover:shadow text-left border-2 border-green-300 border-opacity-60 transition-all ease-linear duration-100">View Resume</a>
           </a>
         </div>
