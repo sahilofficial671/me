@@ -11,7 +11,40 @@ export default function Home() {
       github: "https://github.com/sahilofficial671/shopon",
       piplelineImageLink: "https://img.shields.io/github/deployments/sahilofficial671/shopon/production?label=vercel&logo=vercel",
       link: "https://shopon.webiggle.com/",
-      tags: ['angular', 'nodejs', 'html5', 'css3'],
+      tags: ['angular', 'nodejs', 'html5', 'css3', 'vercel'],
+    },{
+      title: "Twello",
+      description: "Working on projects Made Easy.",
+      github: "https://github.com/sahilofficial671/twello",
+      pipelineLink: "https://github.com/sahilofficial671/twello/actions",
+      piplelineImageLink: "https://github.com/sahilofficial671/twello/actions/workflows/build.yml/badge.svg",
+      link: "https://twello.webiggle.com/",
+      tags: ['laravel', 'php', 'jQuery', 'jQuery ui', 'tailwindcss', 'aws'],
+    },
+    {
+      title: "Cloud Life",
+      description: "Manage your life in cloud. Sleek personal crm.",
+      github: "https://github.com/sahilofficial671/cloud-life",
+      pipelineLink: "https://github.com/sahilofficial671/cloud-life/actions",
+      piplelineImageLink: "https://github.com/sahilofficial671/cloud-life/actions/workflows/tests.yml/badge.svg",
+      link: "https://cloud-life.webiggle.com/",
+      tags: ['laravel', 'php', 'alpine js', 'tailwindcss', 'aws'],
+    },
+    {
+      title: "Laravel Boilerplate",
+      description: "Simple laravel essentials to kik start your new project.",
+      github: "https://github.com/sahilofficial671/laravel-boilerplate",
+      pipelineLink: "https://github.com/sahilofficial671/laravel-boilerplate/actions",
+      piplelineImageLink: "https://github.com/sahilofficial671/laravel-boilerplate/actions/workflows/build.yml/badge.svg",link: "https://boilerplate.webiggle.com/",
+      tags: ['laravel', 'php', 'alpine js', 'tailwindcss', 'aws'],
+    },
+    {
+      title: "Orbit CRM", description: "Light weight Contacts Management Software.",
+      github: "https://github.com/sahilofficial671/orbit-crm",
+      pipelineLink: "https://github.com/sahilofficial671/orbit-crm/actions",
+      piplelineImageLink: "https://github.com/sahilofficial671/orbit-crm/workflows/Build/badge.svg",
+      link: "https://orbit-crm.webiggle.com/",
+      tags: ['laravel', 'php', 'css3', 'aws'],
     }
   ];
 
@@ -45,14 +78,6 @@ export default function Home() {
             // eslint-disable-next-line react/jsx-key
             projects.map((project) => <ProjectCard {...project}  />)
           )}
-
-          <ProjectCard title="Twello" description="Working on projects Made Easy." github="https://github.com/sahilofficial671/twello" pipelineLink="https://github.com/sahilofficial671/twello/actions" piplelineImageLink="https://github.com/sahilofficial671/twello/actions/workflows/build.yml/badge.svg" link="https://twello.webiggle.com/" />
-          
-          <ProjectCard title="Cloud Life" description="Manage your life in cloud. Sleek personal crm." github="https://github.com/sahilofficial671/cloud-life" pipelineLink="https://github.com/sahilofficial671/cloud-life/actions" piplelineImageLink="https://github.com/sahilofficial671/cloud-life/actions/workflows/tests.yml/badge.svg" link="https://cloud-life.webiggle.com/" />
-
-          <ProjectCard title="Laravel Boilerplate" description="Simple laravel essentials to kik start your new project." github="https://github.com/sahilofficial671/laravel-boilerplate" pipelineLink="https://github.com/sahilofficial671/laravel-boilerplate/actions" piplelineImageLink="https://github.com/sahilofficial671/laravel-boilerplate/actions/workflows/build.yml/badge.svg" link="https://boilerplate.webiggle.com/" />
-
-          <ProjectCard title="Orbit CRM" description="Light weight Contacts Management Software." github="https://github.com/sahilofficial671/orbit-crm" pipelineLink="https://github.com/sahilofficial671/orbit-crm/actions" piplelineImageLink="https://github.com/sahilofficial671/orbit-crm/workflows/Build/badge.svg" link="https://orbit-crm.webiggle.com/" />
         </div>
       </section>
     </>

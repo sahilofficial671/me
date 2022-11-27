@@ -30,10 +30,10 @@ export default function ProjectCard(props) {
               </div>
             )}
             
-            <div className="description text-gray-600">{props.description}</div>
+            <div className="description text-gray-600 lg:h-10">{props.description}</div>
             {props.tags && (
               <div className='tags pt-3'>
-                {props.tags.map(tag => <div className='inline-block border border-gray-200 px-2 py-1 bg-blue-50 mr-2 mt-1 rounded-md text-xs uppercase font-medium '>{tag} </div>)}
+                {props.tags.map(tag => <div className='inline-block border border-gray-200 px-2 py-1 bg-blue-50 mr-2 mt-1 rounded-md text-xs uppercase font-medium tracking-wider'>{tag} </div>)}
               </div>
             )}
           </div>
