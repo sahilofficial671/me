@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-no-target-blank */
 import Image from 'next/image';
@@ -30,6 +31,11 @@ export default function ProjectCard(props) {
             )}
             
             <div className="description text-gray-600">{props.description}</div>
+            {props.tags && (
+              <div className='tags pt-3'>
+                {props.tags.map(tag => <div className='inline-block border border-gray-200 px-2 py-1 bg-blue-50 mr-2 mt-1 rounded-md text-xs uppercase font-medium '>{tag} </div>)}
+              </div>
+            )}
           </div>
         </>
     )

@@ -3,6 +3,18 @@ import ProjectCard from '../components/project_card'
 import Head from 'next/head'
 
 export default function Home() {
+
+  const projects = [
+    {
+      title: "Shopon",
+      description: "Ecommerce Project built with Angular & NodeJS.",
+      github: "https://github.com/sahilofficial671/shopon",
+      piplelineImageLink: "https://img.shields.io/github/deployments/sahilofficial671/shopon/production?label=vercel&logo=vercel",
+      link: "https://shopon.webiggle.com/",
+      tags: ['angular', 'nodejs', 'html5', 'css3'],
+    }
+  ];
+
   return (
     <>
       <Head>
@@ -29,6 +41,11 @@ export default function Home() {
         </div>
 
         <div className="sm:grid grid-cols-2">
+          {projects.length && (
+            // eslint-disable-next-line react/jsx-key
+            projects.map((project) => <ProjectCard {...project}  />)
+          )}
+
           <ProjectCard title="Twello" description="Working on projects Made Easy." github="https://github.com/sahilofficial671/twello" pipelineLink="https://github.com/sahilofficial671/twello/actions" piplelineImageLink="https://github.com/sahilofficial671/twello/actions/workflows/build.yml/badge.svg" link="https://twello.webiggle.com/" />
           
           <ProjectCard title="Cloud Life" description="Manage your life in cloud. Sleek personal crm." github="https://github.com/sahilofficial671/cloud-life" pipelineLink="https://github.com/sahilofficial671/cloud-life/actions" piplelineImageLink="https://github.com/sahilofficial671/cloud-life/actions/workflows/tests.yml/badge.svg" link="https://cloud-life.webiggle.com/" />
