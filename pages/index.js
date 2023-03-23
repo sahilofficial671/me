@@ -11,7 +11,7 @@ export default function Home() {
       github: "https://github.com/sahilofficial671/blogopost",
       piplelineImageLink: "https://vercelbadge.vercel.app/api/sahilofficial671/blogpost",
       link: "https://blogpost.webiggle.com/",
-      tags: ['nestjs', 'angular', 'nodejs', 'google auth', 'alpinejs', 'tailwind css' 'html5', 'css3', 'vercel', 'aws'],
+      tags: ['nestjs', 'angular', 'nodejs', 'google auth', 'alpinejs', 'tailwind css', 'html5', 'css3', 'vercel', 'aws'],
     },
     {
       title: "Shopon",
