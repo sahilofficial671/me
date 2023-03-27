@@ -8,7 +8,7 @@ export default function Home() {
     {
       title: "Blogpost",
       description: "Blogging Project build - You can manage blogs, users & authentication by google.",
-      github: "https://github.com/sahilofficial671/blogopost",
+      github: "https://github.com/sahilofficial671/blogopost-backend",
       piplelineImageLink: "https://vercelbadge.vercel.app/api/sahilofficial671/blogpost",
       link: "https://blogpost.webiggle.com/",
       tags: ['nestjs', 'angular', 'nodejs', 'google auth', 'alpinejs', 'tailwind css', 'html5', 'css3', 'vercel', 'aws'],
