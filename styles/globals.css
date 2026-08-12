@@ -6,7 +6,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -16,4 +17,32 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.card {
+  @apply rounded-xl border border-slate-200 bg-white shadow-sm;
+}
+
+.heading {
+  @apply text-3xl font-extrabold text-slate-900 md:text-4xl;
+}
+
+.subheading {
+  @apply mt-1 text-lg font-semibold text-indigo-700;
+}
+
+.section-title {
+  @apply mb-4 text-2xl font-bold text-slate-900;
+}
+
+.contact-line {
+  @apply mt-2 text-sm text-gray-700;
+}
+
+.button {
+  @apply inline-flex rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-700;
+}
+
+.nav-link {
+  @apply rounded-md px-3 py-1 text-gray-700 transition hover:bg-slate-100 hover:text-indigo-700;
 }
