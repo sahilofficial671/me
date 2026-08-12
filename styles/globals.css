@@ -20,11 +20,11 @@ a {
 }
 
 .card {
-  @apply rounded-xl border border-slate-200 bg-white shadow-sm;
+  @apply rounded-xl border border-gray-200 bg-white shadow-sm;
 }
 
 .heading {
-  @apply text-3xl font-extrabold text-slate-900 md:text-4xl;
+  @apply text-3xl font-extrabold text-gray-900 md:text-4xl;
 }
 
 .subheading {
@@ -32,7 +32,7 @@ a {
 }
 
 .section-title {
-  @apply mb-4 text-2xl font-bold text-slate-900;
+  @apply mb-4 text-2xl font-bold text-gray-900;
 }
 
 .contact-line {
@@ -44,5 +44,5 @@ a {
 }
 
 .nav-link {
-  @apply rounded-md px-3 py-1 text-gray-700 transition hover:bg-slate-100 hover:text-indigo-700;
+  @apply rounded-md px-3 py-1 text-gray-700 transition hover:bg-gray-100 hover:text-indigo-700;
 }
